@@ -7,12 +7,15 @@ export const metadata = {
   description: "Baby jukebird demo app 🥳",
 };
 
-export default function RootLayout({
-  children,
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{background: "pink", color: "lightcoral"}}>{children}</body>
+      <body
+        className={inter.className}
+        style={{ background: "pink", color: "lightcoral" }}
+      >
+        {children}
+      </body>
     </html>
   );
 }
