@@ -1,8 +1,10 @@
-import { CampaignsListScreen } from "../../../features/campaigns/screens/campaigns-list.screen";
+import { CampaignsListScreen } from "@/features/campaigns/screens/campaigns-list.screen";
 
-export default function Campaigns() {
+const Campaigns = () =>  {
     return (
       <CampaignsListScreen />
     );
   }
+
+export default Campaigns
   
